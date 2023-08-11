@@ -3,20 +3,23 @@ module github.com/globalsign/atlas-hashicorp-vault
 go 1.12
 
 require (
-	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
-	github.com/davecgh/go-spew v1.1.1
+	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
+	github.com/bitly/go-hostpool v0.1.0 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/fatih/structs v1.1.0
-	github.com/go-test/deep v1.0.7
-	github.com/hashicorp/errwrap v1.0.0
-	github.com/hashicorp/go-hclog v0.14.1
-	github.com/hashicorp/vault v1.6.0
-	github.com/hashicorp/vault/api v1.0.5-0.20201001211907-38d91b749c77
-	github.com/hashicorp/vault/sdk v0.1.14-0.20201109203410-5e6e24692b32
-	github.com/mitchellh/mapstructure v1.3.3
+	github.com/go-test/deep v1.1.0
+	github.com/hashicorp/errwrap v1.1.0
+	github.com/hashicorp/go-hclog v1.5.0
+	github.com/hashicorp/vault v1.13.5
+	github.com/hashicorp/vault/api v1.9.0
+	github.com/hashicorp/vault/sdk v0.8.1
+	github.com/mitchellh/mapstructure v1.5.0
 	github.com/ryanuber/go-glob v1.0.0
-	github.com/stretchr/testify v1.6.1
-	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
-	golang.org/x/net v0.0.0-20200625001655-4c5254603344
+	github.com/stretchr/testify v1.8.2
+	github.com/tencentcloud/tencentcloud-sdk-go v3.0.171+incompatible // indirect
+	github.com/tidwall/pretty v1.0.1 // indirect
+	golang.org/x/crypto v0.7.0
+	golang.org/x/net v0.8.0
 )
 
 replace github.com/globalsign/atlas-hashicorp-vault v0.0.0 => ./
